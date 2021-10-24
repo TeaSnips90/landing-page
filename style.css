@@ -9,7 +9,7 @@
     display: flex;
 }
 .logo{
-    padding: 10px 0 0 30px ;
+    /*padding: 10px 0 0 30px ;*/
     font-weight: bold;
     font-size: 20px;
     flex: 1;
@@ -20,4 +20,38 @@
     text-decoration: none;
     display: inline-block;
     flex: 1;
+}
+.header{
+    background-color: #1f2937;
+    color: #fff;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1px;
+}
+.header-text{
+    /*padding: 0px 50px;*/
+    /*flex: 1;*/
+    background-color: aqua;
+}
+.header-text button{
+    padding: 2px 10px;
+    margin: 5px;
+    color: #fff;
+    background-color: #3882f6;  
+    border: 1px solid #3882f6;
+    border-radius: 5px;
+  
+}
+.header-img{
+    /*flex: 2;*/
+    background-color: blueviolet;
+}
+.header-img img{
+    height: 350px;
+    width: auto;
+}
+.header-img p{
+    text-align: center;
 }
